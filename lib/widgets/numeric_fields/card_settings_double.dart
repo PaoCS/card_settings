@@ -12,6 +12,7 @@ class CardSettingsDouble extends CardSettingsText {
   CardSettingsDouble({
     Key key,
     String label: 'Label',
+    double labelWidth,
     TextAlign labelAlign,
     TextAlign contentAlign,
     String hintText,
@@ -41,6 +42,7 @@ class CardSettingsDouble extends CardSettingsText {
   }) : super(
           key: key,
           label: label,
+          labelWidth: labelWidth,
           hintText: hintText,
           showMaterialonIOS: showMaterialonIOS,
           labelAlign: labelAlign,
